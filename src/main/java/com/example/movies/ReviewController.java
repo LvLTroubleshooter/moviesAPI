@@ -10,6 +10,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/v1/reviews")
+@CrossOrigin(origins = "*")
 public class ReviewController {
     @Autowired
     private ReviewService service;
